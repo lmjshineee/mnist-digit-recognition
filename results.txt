@@ -1,0 +1,131 @@
+Failed to download MNIST dataset using torchvision: Error downloading train-images-idx3-ubyte.gz:
+Tried http://yann.lecun.com/exdb/mnist/, got:
+HTTP Error 404: Not Found
+Tried https://ossci-datasets.s3.amazonaws.com/mnist/, got:
+<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>
+
+Trying manual download and loading...
+Trying to download train-images-idx3-ubyte.gz from https://storage.googleapis.com/cvdf-datasets/mnist/train-images-idx3-ubyte.gz...
+Successfully downloaded to d:\code\DL\DigitalRecognition\mnist-digit-recognition\src\data\MNIST\raw\train-images-idx3-ubyte.gz
+Trying to download train-labels-idx1-ubyte.gz from https://storage.googleapis.com/cvdf-datasets/mnist/train-labels-idx1-ubyte.gz...
+Successfully downloaded to d:\code\DL\DigitalRecognition\mnist-digit-recognition\src\data\MNIST\raw\train-labels-idx1-ubyte.gz
+Trying to download t10k-images-idx3-ubyte.gz from https://storage.googleapis.com/cvdf-datasets/mnist/t10k-images-idx3-ubyte.gz...
+Successfully downloaded to d:\code\DL\DigitalRecognition\mnist-digit-recognition\src\data\MNIST\raw\t10k-images-idx3-ubyte.gz
+Trying to download t10k-labels-idx1-ubyte.gz from https://storage.googleapis.com/cvdf-datasets/mnist/t10k-labels-idx1-ubyte.gz...
+Successfully downloaded to d:\code\DL\DigitalRecognition\mnist-digit-recognition\src\data\MNIST\raw\t10k-labels-idx1-ubyte.gz
+Successfully loaded MNIST dataset manually
+Using device: cpu
+Starting training with Adam optimizer...
+Epoch: 1/5, Batch: 100/938, Loss: 0.6253
+Epoch: 1/5, Batch: 200/938, Loss: 0.2083
+Epoch: 1/5, Batch: 300/938, Loss: 0.1477
+Epoch: 1/5, Batch: 400/938, Loss: 0.1265
+Epoch: 1/5, Batch: 500/938, Loss: 0.1009
+Epoch: 1/5, Batch: 600/938, Loss: 0.0976
+Epoch: 1/5, Batch: 700/938, Loss: 0.0905
+Epoch: 1/5, Batch: 800/938, Loss: 0.0891
+Epoch: 1/5, Batch: 900/938, Loss: 0.0813
+Epoch 1 completed, time: 24.65 seconds
+Epoch: 2/5, Batch: 100/938, Loss: 0.0751
+Epoch: 2/5, Batch: 200/938, Loss: 0.0684
+Epoch: 2/5, Batch: 300/938, Loss: 0.0728
+Epoch: 2/5, Batch: 400/938, Loss: 0.0693
+Epoch: 2/5, Batch: 500/938, Loss: 0.0652
+Epoch: 2/5, Batch: 600/938, Loss: 0.0689
+Epoch: 2/5, Batch: 700/938, Loss: 0.0505
+Epoch: 2/5, Batch: 800/938, Loss: 0.0579
+Epoch: 2/5, Batch: 900/938, Loss: 0.0621
+Epoch 2 completed, time: 24.48 seconds
+Epoch: 3/5, Batch: 100/938, Loss: 0.0501
+Epoch: 3/5, Batch: 200/938, Loss: 0.0527
+Epoch: 3/5, Batch: 300/938, Loss: 0.0506
+Epoch: 3/5, Batch: 400/938, Loss: 0.0513
+Epoch: 3/5, Batch: 500/938, Loss: 0.0480
+Epoch: 3/5, Batch: 600/938, Loss: 0.0483
+Epoch: 3/5, Batch: 700/938, Loss: 0.0489
+Epoch: 3/5, Batch: 800/938, Loss: 0.0462
+Epoch: 3/5, Batch: 900/938, Loss: 0.0475
+Epoch 3 completed, time: 25.37 seconds
+Epoch: 4/5, Batch: 100/938, Loss: 0.0347
+Epoch: 4/5, Batch: 200/938, Loss: 0.0394
+Epoch: 4/5, Batch: 300/938, Loss: 0.0427
+Epoch: 4/5, Batch: 400/938, Loss: 0.0417
+Epoch: 4/5, Batch: 500/938, Loss: 0.0382
+Epoch: 4/5, Batch: 600/938, Loss: 0.0388
+Epoch: 4/5, Batch: 700/938, Loss: 0.0347
+Epoch: 4/5, Batch: 800/938, Loss: 0.0505
+Epoch: 4/5, Batch: 900/938, Loss: 0.0467
+Epoch 4 completed, time: 29.44 seconds
+Epoch: 5/5, Batch: 100/938, Loss: 0.0261
+Epoch: 5/5, Batch: 200/938, Loss: 0.0332
+Epoch: 5/5, Batch: 300/938, Loss: 0.0307
+Epoch: 5/5, Batch: 400/938, Loss: 0.0327
+Epoch: 5/5, Batch: 500/938, Loss: 0.0304
+Epoch: 5/5, Batch: 600/938, Loss: 0.0361
+Epoch: 5/5, Batch: 700/938, Loss: 0.0317
+Epoch: 5/5, Batch: 800/938, Loss: 0.0362
+Epoch: 5/5, Batch: 900/938, Loss: 0.0388
+Epoch 5 completed, time: 30.84 seconds
+Adam model saved to 'd:\code\DL\DigitalRecognition\mnist-digit-recognition\src\saved_models\mnist_Adam.pt'
+Starting training with SGD optimizer...
+Epoch: 1/5, Batch: 100/938, Loss: 2.0552
+Epoch: 1/5, Batch: 200/938, Loss: 0.9649
+Epoch: 1/5, Batch: 300/938, Loss: 0.5635
+Epoch: 1/5, Batch: 400/938, Loss: 0.4457
+Epoch: 1/5, Batch: 500/938, Loss: 0.4180
+Epoch: 1/5, Batch: 600/938, Loss: 0.3538
+Epoch: 1/5, Batch: 700/938, Loss: 0.3177
+Epoch: 1/5, Batch: 800/938, Loss: 0.2816
+Epoch: 1/5, Batch: 900/938, Loss: 0.2786
+Epoch 1 completed, time: 33.11 seconds
+Epoch: 2/5, Batch: 100/938, Loss: 0.2424
+Epoch: 2/5, Batch: 200/938, Loss: 0.2228
+Epoch: 2/5, Batch: 300/938, Loss: 0.2185
+Epoch: 2/5, Batch: 400/938, Loss: 0.1913
+Epoch: 2/5, Batch: 500/938, Loss: 0.1803
+Epoch: 2/5, Batch: 600/938, Loss: 0.1885
+Epoch: 2/5, Batch: 700/938, Loss: 0.1781
+Epoch: 2/5, Batch: 800/938, Loss: 0.1624
+Epoch: 2/5, Batch: 900/938, Loss: 0.1544
+Epoch 2 completed, time: 36.95 seconds
+Epoch: 3/5, Batch: 100/938, Loss: 0.1477
+Epoch: 3/5, Batch: 200/938, Loss: 0.1510
+Epoch: 3/5, Batch: 300/938, Loss: 0.1343
+Epoch: 3/5, Batch: 400/938, Loss: 0.1527
+Epoch: 3/5, Batch: 500/938, Loss: 0.1260
+Epoch: 3/5, Batch: 600/938, Loss: 0.1330
+Epoch: 3/5, Batch: 700/938, Loss: 0.1266
+Epoch: 3/5, Batch: 800/938, Loss: 0.1327
+Epoch: 3/5, Batch: 900/938, Loss: 0.1275
+Epoch 3 completed, time: 26.93 seconds
+Epoch: 4/5, Batch: 100/938, Loss: 0.1293
+Epoch: 4/5, Batch: 200/938, Loss: 0.1052
+Epoch: 4/5, Batch: 300/938, Loss: 0.1071
+Epoch: 4/5, Batch: 400/938, Loss: 0.1124
+Epoch: 4/5, Batch: 500/938, Loss: 0.1121
+Epoch: 4/5, Batch: 600/938, Loss: 0.1050
+Epoch: 4/5, Batch: 700/938, Loss: 0.1265
+Epoch: 4/5, Batch: 800/938, Loss: 0.1106
+Epoch: 4/5, Batch: 900/938, Loss: 0.0985
+Epoch 4 completed, time: 25.93 seconds
+Epoch: 5/5, Batch: 100/938, Loss: 0.1005
+Epoch: 5/5, Batch: 200/938, Loss: 0.0906
+Epoch: 5/5, Batch: 300/938, Loss: 0.1020
+Epoch: 5/5, Batch: 400/938, Loss: 0.0863
+Epoch: 5/5, Batch: 500/938, Loss: 0.1026
+Epoch: 5/5, Batch: 600/938, Loss: 0.0903
+Epoch: 5/5, Batch: 700/938, Loss: 0.0832
+Epoch: 5/5, Batch: 800/938, Loss: 0.0967
+Epoch: 5/5, Batch: 900/938, Loss: 0.0904
+Epoch 5 completed, time: 25.88 seconds
+SGD model saved to 'd:\code\DL\DigitalRecognition\mnist-digit-recognition\src\saved_models\mnist_SGD.pt'
+测试 Adam 模型：d:\code\DL\DigitalRecognition\mnist-digit-recognition\src\saved_models\mnist_Adam.pt
+Successfully downloaded MNIST dataset using torchvision
+
+Adam optimizer model test accuracy: 99.23%
+Confusion matrix saved to d:\code\DL\DigitalRecognition\mnist-digit-recognition\confusion_matrix_Adam.png
+测试 SGD 模型：d:\code\DL\DigitalRecognition\mnist-digit-recognition\src\saved_models\mnist_SGD.pt
+Successfully downloaded MNIST dataset using torchvision
+
+SGD optimizer model test accuracy: 98.24%
+Confusion matrix saved to d:\code\DL\DigitalRecognition\mnist-digit-recognition\confusion_matrix_SGD.png
